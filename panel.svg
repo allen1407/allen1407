@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" width="440" height="560">
+  <rect width="440" height="560" fill="#0c0d0a"/>
+  <rect x="0.5" y="0.5" width="439" height="559" fill="none" stroke="#2a2c24"/>
+
+  <!-- dust -->
+  <g fill="#4d5040">
+    <circle cx="60" cy="90" r="1"/><circle cx="352" cy="70" r="1.1"/><circle cx="300" cy="140" r="0.8"/>
+    <circle cx="90" cy="200" r="0.9"/><circle cx="388" cy="230" r="1"/><circle cx="40" cy="330" r="0.8"/>
+    <circle cx="210" cy="60" r="0.9"/><circle cx="140" cy="120" r="0.8"/>
+  </g>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#8b8f6a" stroke-width="2">
+    <path d="M24 52V24H52"/><path d="M388 24H416V52"/>
+  </g>
+
+  <!-- perspective floor grid -->
+  <g stroke="#3a3d30" stroke-width="1" fill="none">
+    <path d="M40 300H400M20 330H420M0 368H440M0 416H440"/>
+    <path d="M220 300L220 440M160 300L100 440M100 300L-20 440M280 300L340 440M340 300L460 440"/>
+  </g>
+
+  <!-- floating low-poly head (wireframe) -->
+  <g transform="translate(220 196)" fill="none" stroke="#c8915a" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate" values="220 196;220 186;220 196" dur="5s" repeatCount="indefinite"/>
+    <path d="M0 -92 L48 -66 L62 -14 L52 36 L26 76 L0 88 L-26 76 L-52 36 L-62 -14 L-48 -66 Z" stroke-opacity="0.85"/>
+    <path d="M0 -92 L0 88 M-48 -66 L0 -30 L48 -66 M-62 -14 L0 -30 L62 -14 M-52 36 L0 22 L52 36 M-26 76 L0 22 L26 76 M-62 -14 L-52 36 M62 -14 L52 36" stroke-opacity="0.4"/>
+    <!-- eyes / viseme mouth -->
+    <path d="M-30 -8 L-14 -12 M14 -12 L30 -8" stroke-opacity="0.9"/>
+    <ellipse cx="0" cy="48" rx="16" ry="4" stroke-opacity="0.9">
+      <animate attributeName="ry" values="3;9;4;11;3" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse cx="220" cy="318" rx="70" ry="9" fill="#c8915a" opacity="0.08">
+    <animate attributeName="rx" values="70;60;70" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- tracking corners around the head -->
+  <g fill="none" stroke="#a3ad7a" stroke-width="1.5" stroke-opacity="0.7">
+    <path d="M128 92V80H140M300 80H312V92M128 300V312H140M312 300V312H300"/>
+  </g>
+
+  <line x1="64" y1="470" x2="376" y2="470" stroke="#2f322a"/>
+  <g font-family="'Courier New', Courier, monospace" font-size="12" letter-spacing="3" fill="#6f725a">
+    <text x="64" y="496">SPATIAL.MAP</text>
+    <text x="376" y="496" text-anchor="end">FCRIT / VASHI</text>
+    <text x="64" y="520">FOCUS: AI · XR · 3D</text>
+    <text x="376" y="520" text-anchor="end">VISEME: LIVE</text>
+  </g>
+  <g fill="none" stroke="#8b8f6a" stroke-width="2">
+    <path d="M24 508V536H52"/><path d="M388 536H416V508"/>
+  </g>
+</svg>
