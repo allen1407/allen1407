@@ -73,18 +73,30 @@ Diners scan a QR code and see the dish as an interactive 3D model in their brows
 
 ### 🧰 Toolkit
 
-| | |
-|---|---|
-| **XR & 3D** | <img src="https://skillicons.dev/icons?i=unity,blender,threejs&theme=dark" alt="Unity, Blender, Three.js"> &nbsp; AR Foundation · MindAR · A-Frame · WebGL · Maya |
-| **AI / ML** | <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&theme=dark" alt="Python, PyTorch, TensorFlow, scikit-learn"> &nbsp; NLP · LLM APIs |
-| **Languages** | <img src="https://skillicons.dev/icons?i=cs,js,c,java,html&theme=dark" alt="C#, JavaScript, C, Java, HTML"> |
-| **Backend & Cloud** | <img src="https://skillicons.dev/icons?i=nodejs,react,flask,fastapi,mongodb,mysql,supabase,gcp,vercel&theme=dark" alt="Node.js, React, Flask, FastAPI, MongoDB, MySQL, Supabase, GCP, Vercel"> |
+<table>
+<tr>
+<td width="140"><b>XR &amp; 3D</b></td>
+<td><img src="https://skillicons.dev/icons?i=unity,blender,threejs&theme=dark" alt="unity,blender,threejs"><br><sub>AR Foundation · MindAR · A-Frame · WebGL · Maya</sub></td>
+</tr>
+<tr>
+<td width="140"><b>AI / ML</b></td>
+<td><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&theme=dark" alt="python,pytorch,tensorflow,sklearn"><br><sub>NLP · LLM APIs</sub></td>
+</tr>
+<tr>
+<td width="140"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=cs,js,c,java,html&theme=dark" alt="cs,js,c,java,html"></td>
+</tr>
+<tr>
+<td width="140"><b>Backend &amp; Cloud</b></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs,react,flask,fastapi,mongodb,mysql,supabase,gcp,vercel&theme=dark" alt="nodejs,react,flask,fastapi,mongodb,mysql,supabase,gcp,vercel"></td>
+</tr>
+</table>
 
 ### 📊 Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=allen1407&show_icons=true&include_all_commits=true&hide_rank=true&bg_color=0e1433&title_color=5ee7ff&icon_color=a78bfa&text_color=c7d2fe&hide_border=true&border_radius=14" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=allen1407&layout=compact&bg_color=0e1433&title_color=5ee7ff&text_color=c7d2fe&hide_border=true&border_radius=14" alt="Top languages" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=allen1407&show_icons=true&include_all_commits=true&hide_rank=true&bg_color=0e1433&title_color=5ee7ff&icon_color=a78bfa&text_color=c7d2fe&hide_border=true&border_radius=14" alt="GitHub stats" width="49%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=allen1407&layout=compact&bg_color=0e1433&title_color=5ee7ff&text_color=c7d2fe&hide_border=true&border_radius=14" alt="Top languages" width="49%">
 </p>
 
 <p align="center">
