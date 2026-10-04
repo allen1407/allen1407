@@ -100,7 +100,7 @@ Diners scan a QR code and see the dish as an interactive 3D model in their brows
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=allen1407&bg_color=0e1433&color=c7d2fe&line=5ee7ff&point=a78bfa&area=true&area_color=7c3aed&hide_border=true&radius=14" alt="Contribution graph" width="100%">
+  <img src="https://streak-stats.demolab.com?user=allen1407&background=0E1433&border=0E1433&ring=A78BFA&fire=5EE7FF&currStreakLabel=5EE7FF&sideLabels=C7D2FE&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B93C9&stroke=2A3366&hide_border=true&border_radius=14" alt="Contribution streak" width="80%">
 </p>
 
 ### 🏅 Highlights
