@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400" width="1400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0e0b"/>
+      <stop offset="1" stop-color="#121410"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1b1d17" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="400" fill="url(#bg)"/>
+  <rect width="1400" height="400" fill="url(#grid)" opacity="0.55"/>
+  <rect x="0.5" y="0.5" width="1399" height="399" fill="none" stroke="#2a2c24"/>
+
+  <!-- star dust -->
+  <g fill="#6f725a">
+    <circle cx="212" cy="48" r="1.2"/><circle cx="388" cy="92" r="0.9"/><circle cx="530" cy="40" r="1.1"/>
+    <circle cx="742" cy="70" r="0.8"/><circle cx="905" cy="34" r="1.2"/><circle cx="1088" cy="98" r="0.9"/>
+    <circle cx="1224" cy="52" r="1.1"/><circle cx="1312" cy="210" r="0.9"/><circle cx="1180" cy="300" r="1"/>
+    <circle cx="980" cy="262" r="0.8"/><circle cx="860" cy="330" r="1.1"/><circle cx="640" cy="352" r="0.9"/>
+    <circle cx="94" cy="250" r="1"/><circle cx="160" cy="360" r="0.8"/><circle cx="1350" cy="120" r="0.9"/>
+  </g>
+
+  <!-- AR tracking reticle (right side) -->
+  <g transform="translate(1150 175)" fill="none" stroke="#c8915a">
+    <circle r="78" stroke-opacity="0.22"/>
+    <circle r="52" stroke-opacity="0.35" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="26" stroke-opacity="0.5"/>
+    <path d="M-100 0H-62M62 0H100M0 -100V-62M0 62V100" stroke-opacity="0.45"/>
+    <circle r="3" fill="#c8915a" stroke="none">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="26" stroke-opacity="0.6">
+      <animate attributeName="r" values="26;78" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#8b8f6a" stroke-width="2.5">
+    <path d="M40 72V28H84"/><path d="M1316 28H1360V72"/>
+    <path d="M40 328V372H84"/><path d="M1316 372H1360V328"/>
+  </g>
+
+  <g font-family="'Courier New', Courier, monospace">
+    <text x="112" y="118" fill="#8b8f6a" font-size="20" letter-spacing="9">HI, I'M</text>
+    <text x="108" y="200" fill="#ece4cf" font-size="82" font-weight="700" letter-spacing="5">ALLEN PETER</text>
+    <text x="112" y="254" fill="#a3ad7a" font-size="20" letter-spacing="3.5">AI + XR DEVELOPER · 3D AVATARS · MULTILINGUAL AI</text>
+    <text x="112" y="284" fill="#8b8f6a" font-size="17" letter-spacing="3">B.TECH COMPUTER ENGINEERING · FCRIT, VASHI</text>
+  </g>
+
+  <circle cx="1090" cy="345" r="4" fill="#a3ad7a"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <line x1="112" y1="318" x2="1288" y2="318" stroke="#2f322a" stroke-width="1.5"/>
+
+  <g font-family="'Courier New', Courier, monospace" font-size="15" letter-spacing="5" fill="#6f725a">
+    <text x="112" y="350">SYS.LOG // BUILDING IN XR</text>
+    <text x="1074" y="350" text-anchor="end">STATUS:</text>
+    <text x="1288" y="350" text-anchor="end" fill="#a3ad7a">OPEN TO ROLES</text>
+</g>
+</svg>
