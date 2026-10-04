@@ -1,56 +1,88 @@
-<h1 align="center">Hi, I'm Allen Peter 👋</h1>
-<h3 align="center">AI + XR developer · 3D avatars · Multilingual (Indic) AI · WebAR</h3>
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/allen-peter-469999354/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:peterallen833@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="./banner.svg" alt="Allen Peter — AI + XR Developer" width="100%">
 </p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/allen-peter-469999354/"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:peterallen833@gmail.com"><img src="https://img.shields.io/badge/GMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+  <a href="https://ar-bye.vercel.app"><img src="https://img.shields.io/badge/SHANKH_AR_·_LIVE_DEMO-0d1117?style=for-the-badge&logo=googlecardboard&logoColor=C8915A" alt="Shankh AR live demo"></a>
+</p>
 
-### 🧑‍💻 About me
+<table>
+<tr>
+<td width="34%" valign="top">
+  <img src="./panel.svg" alt="Wireframe avatar on an AR tracking grid" width="100%">
+</td>
+<td width="66%" valign="top">
 
-- 🎓 B.Tech in Computer Engineering at Fr. C. Rodrigues Institute of Technology, Vashi (May 2027)
-- 🥽 Built an **AR/VR financial chatbot that speaks Indic languages** through a custom 3D avatar (Blender → Unity) at InfinityPool Finnotech
-- 🗣️ Working on **Indic lip-sync**: phoneme-to-viseme mapping and blend-shape facial animation for avatars
-- 🍽️ Building **PlateVerse**, a QR-based WebAR experience that lets diners preview dishes in 3D before eating
-- 🏆 First Prize, Sparkathon · Best Mini Project Award (2024–25) · Treasurer, CSI FCRIT
+## `ABOUT.md`
 
-### 🛠️ Tech I work with
+I build **AI-driven XR experiences**: 3D avatars that talk, listen and **lip-sync in Indic languages**, and **WebAR** that runs straight from a browser. Recent work spans an AR/VR financial chatbot with a custom Blender → Unity avatar, phoneme-to-viseme facial animation, a QR-based WebAR food preview, and an AI voice agent for dealer complaints.
 
-**XR / 3D**
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
-![WebAR](https://img.shields.io/badge/WebAR-5C2D91?style=flat-square)
-![AR Foundation](https://img.shields.io/badge/AR_Foundation-222222?style=flat-square&logo=unity&logoColor=white)
+Final-year Computer Engineering at FCRIT, Vashi. **Open to AI + XR / AR/VR / 3D / spatial computing roles.**
 
-**AI / ML**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-4B8BBE?style=flat-square)
+<img src="https://github-readme-stats.vercel.app/api?username=allen1407&show_icons=true&include_all_commits=true&bg_color=0c0d0a&title_color=a3ad7a&icon_color=c8915a&text_color=e6e1d3&ring_color=a3ad7a&hide_border=true&custom_title=Allen%20Peter's%20GitHub%20Stats" alt="GitHub stats" width="100%">
 
-**Languages & Backend**
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=allen1407&layout=compact&bg_color=0c0d0a&title_color=a3ad7a&text_color=e6e1d3&hide_border=true" alt="Most used languages" width="60%">
 
-### 🚀 Featured work
+</td>
+</tr>
+</table>
 
-| Project | What it is | Stack |
-|---|---|---|
-| **Shankh** | AR/VR financial chatbot that converses in Indic languages via a speaking 3D avatar | Unity, C#, Blender, Python, NLP |
-| **Indic Lip-Sync / Viseme Engine** | Phoneme-to-viseme mapping driving avatar lip sync with blend shapes | Python, JavaScript, Blender |
-| **PlateVerse** | Scan a QR code, preview the dish as an interactive 3D model in the browser | WebAR, Three.js, WebGL, GLB |
-| [**ar-bye**](https://github.com/allen1407/ar-bye) | Marker-based WebAR demo that anchors a 3D GLB model to an image target | HTML, WebAR, GLB |
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=allen1407&background=0C0D0A&border=0C0D0A&ring=C8915A&fire=C8915A&currStreakLabel=A3AD7A&sideLabels=E6E1D3&currStreakNum=E6E1D3&sideNums=E6E1D3&dates=8B8F6A&hide_border=true" alt="GitHub streak">
+</p>
 
----
+## `STACK.cfg`
 
-<p align="center"><i>Open to AI + XR / AR/VR / 3D / spatial computing roles.</i></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=unity,blender,threejs,cs,python,js,c,java,html&theme=dark" alt="XR and languages"><br>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,react,nodejs,flask,fastapi,mongodb,mysql,supabase,gcp,vercel,git,github,vscode&theme=dark" alt="AI, backend and tools">
+</p>
+
+<p align="center">
+  <b>XR pipeline</b>: Blender · Maya → GLB / glTF → Unity · AR Foundation · MindAR · A-Frame · Three.js / WebGL<br>
+  <b>AI layer</b>: NLP · LLM APIs (OpenAI) · Indic speech · phoneme → viseme lip-sync
+</p>
+
+## `BUILD_LOG`
+
+> **AP-01 // InfinityPool branch** · 1 year
+> Built **Shankh**, an AR/VR financial chatbot that converses in **Indic languages** through a custom 3D avatar (**Blender → Unity, C#**). AI/NLP integration, Indic speech and lip-sync (phoneme → viseme), and the backend APIs connecting it all. <sub>Private repository (AR chatbot), happy to walk through it.</sub>
+
+> **AP-01 // Shankh AR** · [live demo](https://ar-bye.vercel.app) · [ar-bye](https://github.com/allen1407/ar-bye)
+> WebAR spin-off: the animated Shankh avatar anchored to a printed marker using **MindAR image tracking + A-Frame + Three.js**, with a Draco-compressed GLB. No app install.
+
+> **AP-01 // Kansai Nerolac branch** · Jun — Jul 2026
+> Digital team (IT/SAP Support): contributed to an **AI voice agent for dealer complaints**, process automation, and a **Microsoft Power Pages** self-service portal.
+
+> **AP-01 // independent branch**
+> **PlateVerse**: scan a QR code and preview the dish as an interactive 3D model in the browser (**WebAR · Three.js · WebGL · GLB**).<br>
+> **Indic Lip-Sync / Viseme Engine**: phoneme-to-viseme mapping driving blend-shape facial animation on Blender-built avatars.
+
+> **AP-01 // IISER Mohali branch** · 15 days
+> Machine learning internship: built and evaluated ML models and analysed data.
+
+**Public repos:**
+
+<p align="center">
+  <a href="https://github.com/allen1407/ar-bye"><img src="https://img.shields.io/badge/ar--bye-161b22?style=for-the-badge&logo=github&logoColor=white" alt="ar-bye"></a>
+  <a href="https://github.com/allen1407/Market-Breadth"><img src="https://img.shields.io/badge/Market--Breadth-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Market-Breadth"></a>
+  <a href="https://github.com/allen1407/microcap-forensic-agent"><img src="https://img.shields.io/badge/microcap--forensic--agent-161b22?style=for-the-badge&logo=github&logoColor=white" alt="microcap-forensic-agent"></a>
+</p>
+
+## `EXPERIENCE.log`
+
+| Period | Org | Role |
+|:---:|:---:|:---:|
+| 1 year | InfinityPool Finnotech Pvt. Ltd. | Software Engineering Intern |
+| Jun 2026 — Jul 2026 | Kansai Nerolac Paints Ltd. | IT Intern (Digital, IT/SAP Support) |
+| 15 days | IISER Mohali | Machine Learning Intern |
+
+## `ACHIEVEMENTS.log`
+
+- 🥇 **First Prize**, Sparkathon (idea presentation competition)
+- 🏆 **Best Mini Project Award**, academic year 2024–25
+- 💼 **Treasurer**, CSI FCRIT (Computer Society of India)
+
+<p align="center"><sub>SYS.LOG // END OF FILE</sub></p>
