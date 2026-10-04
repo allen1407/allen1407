@@ -1,63 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400" width="1400" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 460" width="1400" height="460">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d0e0b"/>
-      <stop offset="1" stop-color="#121410"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b17"/>
+      <stop offset="1" stop-color="#0e1433"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#1b1d17" stroke-width="1"/>
-    </pattern>
+    <radialGradient id="glow" cx="0.76" cy="0.42" r="0.45">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5ee7ff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ee7ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5ee7ff" stop-opacity="0.5"/>
+    </linearGradient>
+    <clipPath id="floor"><rect x="0" y="330" width="1400" height="130"/></clipPath>
   </defs>
 
-  <rect width="1400" height="400" fill="url(#bg)"/>
-  <rect width="1400" height="400" fill="url(#grid)" opacity="0.55"/>
-  <rect x="0.5" y="0.5" width="1399" height="399" fill="none" stroke="#2a2c24"/>
+  <rect width="1400" height="460" rx="18" fill="url(#bg)"/>
+  <rect width="1400" height="460" rx="18" fill="url(#glow)"/>
 
-  <!-- star dust -->
-  <g fill="#6f725a">
-    <circle cx="212" cy="48" r="1.2"/><circle cx="388" cy="92" r="0.9"/><circle cx="530" cy="40" r="1.1"/>
-    <circle cx="742" cy="70" r="0.8"/><circle cx="905" cy="34" r="1.2"/><circle cx="1088" cy="98" r="0.9"/>
-    <circle cx="1224" cy="52" r="1.1"/><circle cx="1312" cy="210" r="0.9"/><circle cx="1180" cy="300" r="1"/>
-    <circle cx="980" cy="262" r="0.8"/><circle cx="860" cy="330" r="1.1"/><circle cx="640" cy="352" r="0.9"/>
-    <circle cx="94" cy="250" r="1"/><circle cx="160" cy="360" r="0.8"/><circle cx="1350" cy="120" r="0.9"/>
+  <!-- perspective floor -->
+  <g clip-path="url(#floor)" stroke="url(#fade)" stroke-width="1.2" fill="none">
+    <path d="M0 340H1400M0 356H1400M0 380H1400M0 414H1400M0 458H1400"/>
+    <path d="M700 330L700 460M700 330L520 460M700 330L340 460M700 330L160 460M700 330L-20 460M700 330L880 460M700 330L1060 460M700 330L1240 460M700 330L1420 460"/>
   </g>
+  <line x1="0" y1="330" x2="1400" y2="330" stroke="#5ee7ff" stroke-opacity="0.35"/>
 
-  <!-- AR tracking reticle (right side) -->
-  <g transform="translate(1150 175)" fill="none" stroke="#c8915a">
-    <circle r="78" stroke-opacity="0.22"/>
-    <circle r="52" stroke-opacity="0.35" stroke-dasharray="4 6">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+  <!-- wireframe cube with orbiting rings -->
+  <g transform="translate(1080 190)">
+    <g fill="none" stroke="#5ee7ff" stroke-width="1.6" stroke-linejoin="round">
+      <path d="M0 -78 L68 -39 L68 39 L0 78 L-68 39 L-68 -39 Z" stroke-opacity="0.9"/>
+      <path d="M0 0 L0 78 M0 0 L68 -39 M0 0 L-68 -39" stroke-opacity="0.9"/>
+      <path d="M0 -78 L0 0 M68 39 L0 0 M-68 39 L0 0" stroke-opacity="0.18" stroke-dasharray="4 5"/>
+    </g>
+    <g fill="#5ee7ff">
+      <circle cx="0" cy="-78" r="3.5"/><circle cx="68" cy="-39" r="3.5"/><circle cx="68" cy="39" r="3.5"/>
+      <circle cx="0" cy="78" r="3.5"/><circle cx="-68" cy="39" r="3.5"/><circle cx="-68" cy="-39" r="3.5"/>
+      <circle cx="0" cy="0" r="3.5"/>
+    </g>
+    <animateTransform attributeName="transform" type="translate" values="1080 190;1080 178;1080 190" dur="6s" repeatCount="indefinite"/>
+  </g>
+  <g transform="rotate(-18 1080 190)">
+    <ellipse cx="1080" cy="190" rx="170" ry="52" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle r="6" fill="#a78bfa">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M910 190 A170 52 0 1 0 1250 190 A170 52 0 1 0 910 190"/>
     </circle>
-    <circle r="26" stroke-opacity="0.5"/>
-    <path d="M-100 0H-62M62 0H100M0 -100V-62M0 62V100" stroke-opacity="0.45"/>
-    <circle r="3" fill="#c8915a" stroke="none">
-      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="26" stroke-opacity="0.6">
-      <animate attributeName="r" values="26;78" dur="3.2s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="0.6;0" dur="3.2s" repeatCount="indefinite"/>
+  </g>
+  <g transform="rotate(24 1080 190)">
+    <ellipse cx="1080" cy="190" rx="140" ry="40" fill="none" stroke="#5ee7ff" stroke-width="1.2" stroke-opacity="0.4"/>
+    <circle r="4.5" fill="#5ee7ff">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M1220 190 A140 40 0 1 1 940 190 A140 40 0 1 1 1220 190"/>
     </circle>
   </g>
+  <ellipse cx="1080" cy="352" rx="110" ry="10" fill="#5ee7ff" opacity="0.12"/>
 
-  <!-- corner brackets -->
-  <g fill="none" stroke="#8b8f6a" stroke-width="2.5">
-    <path d="M40 72V28H84"/><path d="M1316 28H1360V72"/>
-    <path d="M40 328V372H84"/><path d="M1316 372H1360V328"/>
+  <!-- left copy -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <rect x="90" y="78" width="330" height="36" rx="18" fill="#5ee7ff" fill-opacity="0.08" stroke="#5ee7ff" stroke-opacity="0.5"/>
+    <circle cx="114" cy="96" r="5" fill="#5ee7ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="130" y="102" fill="#bdf6ff" font-size="17" font-weight="600">AI · XR · SPATIAL COMPUTING</text>
+
+    <text x="86" y="200" fill="url(#name)" font-size="86" font-weight="800">Allen Peter</text>
+    <text x="90" y="248" fill="#c7d2fe" font-size="25">Building talking 3D avatars, Indic lip-sync</text>
+    <text x="90" y="282" fill="#c7d2fe" font-size="25">and WebAR that runs straight from a browser.</text>
   </g>
-
-  <g font-family="'Courier New', Courier, monospace">
-    <text x="112" y="118" fill="#8b8f6a" font-size="20" letter-spacing="9">HI, I'M</text>
-    <text x="108" y="200" fill="#ece4cf" font-size="82" font-weight="700" letter-spacing="5">ALLEN PETER</text>
-    <text x="112" y="254" fill="#a3ad7a" font-size="20" letter-spacing="3.5">AI + XR DEVELOPER · 3D AVATARS · MULTILINGUAL AI</text>
-    <text x="112" y="284" fill="#8b8f6a" font-size="17" letter-spacing="3">B.TECH COMPUTER ENGINEERING · FCRIT, VASHI</text>
-  </g>
-
-  <circle cx="1090" cy="345" r="4" fill="#a3ad7a"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
-  <line x1="112" y1="318" x2="1288" y2="318" stroke="#2f322a" stroke-width="1.5"/>
-
-  <g font-family="'Courier New', Courier, monospace" font-size="15" letter-spacing="5" fill="#6f725a">
-    <text x="112" y="350">SYS.LOG // BUILDING IN XR</text>
-    <text x="1074" y="350" text-anchor="end">STATUS:</text>
-    <text x="1288" y="350" text-anchor="end" fill="#a3ad7a">OPEN TO ROLES</text>
-</g>
 </svg>
