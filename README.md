@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=5EE7FF&center=true&vCenter=true&width=720&lines=Talking+3D+avatars+in+Unity+%2B+Blender;Indic+lip-sync%3A+phoneme+%E2%86%92+viseme;WebAR+that+runs+in+any+browser;Open+to+AI+%2B+XR+%2F+spatial+computing+roles" alt="Typing intro"></a>
+  <a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=5EE7FF&center=true&vCenter=true&width=720&lines=Full-stack+AI+apps%3A+React+%2B+Node.js+%2B+LLMs;Talking+3D+avatars+in+Unity+%2B+Blender;Indic+lip-sync%3A+phoneme+%E2%86%92+viseme;WebAR+that+runs+in+any+browser;Open+to+AI+full-stack+%2B+XR+roles" alt="Typing intro"></a>
 </p>
 
 <p align="center">
@@ -61,6 +61,31 @@ Diners scan a QR code and see the dish as an interactive 3D model in their brows
 </tr>
 </table>
 
+### 🌐 Full-stack & AI products
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Dealer Complaint AI Voice Agent** &nbsp;`full-stack web app`
+
+Dealers speak a complaint in their own Indian language. The app transcribes it, generates an LLM summary, and shows a ready-to-act review to the company's team. Built for Kansai Nerolac's dealer complaint process.
+
+![Speech-to-Text](https://img.shields.io/badge/Speech--to--Text-0F766E?style=flat-square) ![LLM](https://img.shields.io/badge/LLM-412991?style=flat-square&logo=openai&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-2563EB?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel)
+
+</td>
+<td width="50%" valign="top">
+
+**AI Portfolio Rebalancer & Finance Tracker**
+
+A web app that analyses financial portfolios and gives rebalancing insights using GPT and data analytics.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+</td>
+</tr>
+</table>
+
 ### 🧭 Journey
 
 - **Software Engineering Intern** · InfinityPool Finnotech · *1 year*<br>
@@ -87,8 +112,12 @@ Diners scan a QR code and see the dish as an interactive 3D model in their brows
 <td><img src="https://skillicons.dev/icons?i=cs,js,c,java,html&theme=dark" alt="cs,js,c,java,html"></td>
 </tr>
 <tr>
-<td width="140"><b>Backend &amp; Cloud</b></td>
-<td><img src="https://skillicons.dev/icons?i=nodejs,react,flask,fastapi,mongodb,mysql,supabase,gcp,vercel&theme=dark" alt="nodejs,react,flask,fastapi,mongodb,mysql,supabase,gcp,vercel"></td>
+<td width="140"><b>Full-Stack Web</b></td>
+<td><img src="https://skillicons.dev/icons?i=react,nodejs,flask,fastapi&theme=dark" alt="react,nodejs,flask,fastapi"><br><sub>React frontends · Node.js &amp; Python REST APIs · Streamlit</sub></td>
+</tr>
+<tr>
+<td width="140"><b>Data &amp; Cloud</b></td>
+<td><img src="https://skillicons.dev/icons?i=mongodb,mysql,supabase,gcp,vercel&theme=dark" alt="mongodb,mysql,supabase,gcp,vercel"></td>
 </tr>
 </table>
 
